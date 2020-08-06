@@ -1,0 +1,84 @@
+/**
+ *Webpage regarding self introduction
+ */
+ html{
+	background-color:#102372
+}
+
+body {
+    background-color:#fefbd8
+	}
+
+h1 {
+	font-family: garamond;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #acd1b2;
+}
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+#name {
+	position: relative;
+	top: -10px;
+    font-weight: bold;
+    color: black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#email{
+	float:right;
+	margin-right:5px;
+	padding-top:5px;
+	font-size:18px;
+	font-family: Verdana;
+	color:#D2691E;
+}
+div{
+	border-radius:10px;
+}
+
+p{
+    font-family: sans-serif ;
+}
+#footer{
+	position:relative;
+	height: 50px;
+	float:right;
+	background-color:#668284;
+	font-family: Verdana, sans-serif;
+	font-size:14px;
+	text-align:center;
+	color:#ffffff
+}
+#footer p{
+	position:relative;
+	padding-top:15px;
+}
+h1:hover
+{
+	background-color:#102372;
+}
+h2:hover
+{
+	background-color:#102372;
+}
+div{
+	border-radius:3px dotted blue;
+}
+img{
+        float: center;
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+        border: solid coral;
+     
+}
